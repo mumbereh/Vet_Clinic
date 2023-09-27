@@ -1,5 +1,5 @@
 /* Database schema to keep the structure of entire database. */
-
+CREATE DATABASE vet_clini
 CREATE TABLE animals (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255),
