@@ -31,7 +31,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -90,7 +89,7 @@ Install this project with:
 
 ```sh
   cd vet_clinic
-
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +102,7 @@ Install this project with:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
+## FUTURE FEATURES <a href="#future-features"></a>
 
 - [ ] **Deploying project to a server**
 - [ ] **Filtering by authors**
@@ -111,31 +110,30 @@ Install this project with:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-
+## Contributions <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mumbereh/Vet_Clinic/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-
+## SUPPORT <a name="support"></a>
 If you like this project star the repo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-
+## ACKNOWLEDGEMENTS <a name="acknowledgements"></a>
 We would like to thank the Microverse community for giving us the opportunity of learning together.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- LICENSE -->
 
-
+## LICENSE <a name="license"></a>
 This project is [MIT](MIT.md) licensed.
 
 
