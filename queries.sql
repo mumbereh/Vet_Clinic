@@ -37,4 +37,30 @@ SELECT species, AVG(escape_attempts) AS avg_escape_attempts
 FROM animals
 WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31'
 GROUP BY species;
+BEGIN;
+
+UPDATE animals
+SET species = 'unspecified';
+
+SELECT species FROM animals;
+
+ROLLBACK;
+
+SELECT species FROM animals;
+
+BEGIN;
+
+UPDATE animals
+SET species = 'digimon'
+WHERE name LIKE '%mon';
+
+UPDATE animals
+SET species = 'pokemon'
+WHERE species IS NULL;
+
+SELECT species FROM animals;
+
+COMMIT;
+
+SELECT species FROM animals;
 
