@@ -138,6 +138,13 @@ GROUP BY a.name
 ORDER BY first_visit_date
 LIMIT 1;
 
+SELECT a.name AS animal_name, vt.name AS vet_name, MAX(v.visit_date) AS most_recent_visit_date
+FROM visits v
+JOIN vets vt ON v.vet_id = vt.id
+JOIN animals a ON v.animal_id = a.id
+WHERE v.visit_date = (SELECT MAX(visit_date) FROM visits)
+GROUP BY a.name, vt.name;
+
 SELECT COUNT(*)
 FROM visits v
 JOIN vets vt ON v.vet_id = vt.id
